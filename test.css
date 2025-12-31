@@ -17,4 +17,23 @@ body{
        box-shadow:0 0 0 3px #000000;
        
 }
-   
+
+     button{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: midnightblue;
+    width: 40%;
+    justify-content: center;
+    border: none;
+    transition-duration: 04s;
+   }
+   button:hover{
+    background-color: aliceblue;
+    transform: circle;
+   }
+   input{
+    background: transparent;
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+   }
